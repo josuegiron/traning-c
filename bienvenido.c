@@ -16,4 +16,5 @@ int main(){
     printf("El total es: %d\n", total);
 
     return 0; 
+    
 } /* main */
