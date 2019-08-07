@@ -33,3 +33,42 @@ Tercer mejoramiento: {
 }
  */
 
+#include <stdio.h>
+
+/* Inicio del main */
+int main(){
+    int numeroCuenta = 0;
+    float saldoInicial = 0.0;
+    float cargosDelMes = 0.0;
+    float totalCreditos = 0.0;
+    float limiteCretditos = 0.0;
+    float saldoActual = 0.0;
+
+    while (numeroCuenta != -1){
+        printf("Introduzca el número de cuenta (-1 para terminar): \n");
+        scanf("%d", &numeroCuenta);
+
+        if (numeroCuenta != -1){
+            
+            printf("Introduzca el saldo inicial: \n");
+            scanf("%f", &saldoInicial);
+            
+            printf("Introduzca el total de cargos: \n");
+            scanf("%f", &cargosDelMes);
+            
+            printf("Introduzca el total de créditos: \n");
+            scanf("%f", &totalCreditos);
+            
+            printf("Introduzca el límite de créditos: \n");
+            scanf("%f", &limiteCretditos);
+
+            saldoActual = saldoInicial + cargosDelMes - totalCreditos;
+
+            if (saldoActual > limiteCretditos){
+                printf("Cuenta: %d\nLimite de crédito: %.2f\nSaldo: %.2f\nLímite de crédito excedido.\n", numeroCuenta, limiteCretditos, saldoActual);
+                
+            }/*end if */
+
+        }/* end if  */
+    }/* end while */
+}/* end main */
