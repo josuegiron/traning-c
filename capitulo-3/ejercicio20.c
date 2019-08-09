@@ -48,5 +48,7 @@ int main(){
             printf("El monto del intés es $%.2f\n\n", (montoPrestamo * tasaInteres * periodo / 365));
             
         }/* end if */
+
     }/* end while */
+    
 }/* end main */
