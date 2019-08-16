@@ -21,8 +21,8 @@ int main(){
 
     
     
-    while( n > 0 ){
-        int x = 10, j = n;
+    while( n > 1 ){
+        int x = 10, j = n - 1;
 
         while (j != 1){
             j--;
@@ -40,6 +40,7 @@ int main(){
         
         numero = numero % x;
         numero = numero / 10;
+
         printf("%d\t%d\t%d\t%d\t%d\n", primerDigito, ultimoDigito, n, numero, x);
 
         if ( primerDigito != ultimoDigito ){
@@ -47,9 +48,8 @@ int main(){
             palindromo = 0;    
 
         }/* end if */
-        n -= 2;
 
-        
+        n -= 2;
 
     }/* end while */
 
