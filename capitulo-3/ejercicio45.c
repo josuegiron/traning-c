@@ -3,22 +3,22 @@
 // main
 int main(){
 
-    float a, b, c;
+    int a, b, c;
 
     printf("Ingrese tres valores distintos de cero: \n");
     
     printf("Ingrese a: ");
-    scanf("%f", &a);
+    scanf("%d", &a);
     
     printf("Ingrese b: ");
-    scanf("%f", &b);
+    scanf("%d", &b);
     
     printf("Ingrese c: ");
-    scanf("%f", &c);
-    
+    scanf("%d", &c);
+
     float m = ((a / c) * (a / c) + (b / c) * (b / c)) - 1;
     int n = m / 0.001; 
-    
+
     if ( n == 0 ) {
         
         printf("Son lados de un triangulo rectángulo. \n");
@@ -48,5 +48,4 @@ int main(){
     }// end if 
 
     printf("No son lados de un triangulo recto!\n");
-
 }// end main
