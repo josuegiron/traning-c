@@ -63,3 +63,6 @@
     d)  1
     e)  12, 15, 18, 21, 24, 27, 30, 33, 36, 39... hasta el infinito...
     
+4.8:    Imprime un cuadrado de @ segun el valor que ingresa el usuario.
+
+
