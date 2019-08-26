@@ -1,0 +1,49 @@
+4.1:
+    a)  Definida
+    b)  Indefinida
+    c)  Contador
+    d)  Continue
+    e)  Break
+    f)  Intruccion de selección switch
+
+4.2:
+    a)  Falso, no se necesita un caso default.
+    b)  Falso, porque es la unica que se ejecuta.
+    c)  Falso, unicamente es verdadera si ambas son verdaderas.
+    d)  Verdadero.
+
+4.3: 
+    a)  for( cuenta = 1; cuenta < 100; cuenta+=2 ){
+            suma += cuenta;
+        }
+    b)
+        printf("%-25.1", 333.546372); // 333.5
+        printf("%-25.2", 333.546372); // 333.54
+        printf("%-25.3", 333.546372); // 333.546
+        printf("%-25.4", 333.546372); // 333.5463
+        printf("%-25.5", 333.546372); // 333.54637
+    c)  printf("%10.2", pow(2.5, 3)); // 15.63
+    d) 
+        x = 1; 
+        while(x <= 20){
+            if ( x % 5 != 0 ){
+                printf("%d\t", x);
+            }else{
+                printf("\n%d");
+            }
+            x++;
+        }
+    e)
+        for( x = 1; x <= 20; x++){
+            if ( x % 5 != 0 ){
+                printf("%d\t", x);
+            }else{
+                printf("\n%d");
+            }
+        }
+4.4:
+    a)  Punto y coma en la instrucción while en lugar de la llave
+    b)  Se utiliza una variable flotante para contador. Utilizar una variable entera.
+    c)  El caso 1 no posee break lo que puede ocasionar que se ejecuten las demas instrucciones en ese caso.
+    d)  En el argumento del while se debe colocar <= para que se tome encuenta el 110.
+
