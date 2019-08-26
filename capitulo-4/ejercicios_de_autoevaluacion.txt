@@ -47,3 +47,19 @@
     c)  El caso 1 no posee break lo que puede ocasionar que se ejecuten las demas instrucciones en ese caso.
     d)  En el argumento del while se debe colocar <= para que se tome encuenta el 110.
 
+4.5: 
+    a)  Se convierte en un ciclo infinito.
+    b)  No tinen break en los casos.
+    c)  No delcara la variables.
+    d)  Se utiliza un flotante como contador, puede causar errores.
+    e)  Se genera un ciclo infinito. No se resta del valor de x. La condicion es incorrecta.
+    f)  El cero es un numero par, no se toma en cuneta en este ejercicio. La condicion del do-while no incluye al 100.
+    g)  Tiene punto y coma en la delcaraciond el for. 
+
+4.6:   
+    a)  2, 4, 6, 8, 10, 12
+    b)  5, 15 y 22
+    c)  3, 6, 9, 12, 15
+    d)  1
+    e)  12, 15, 18, 21, 24, 27, 30, 33, 36, 39... hasta el infinito...
+    
